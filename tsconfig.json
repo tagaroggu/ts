@@ -1,6 +1,6 @@
 {
+  /* Based on Matt Pocock's tsconfig cheatsheet https://www.totaltypescript.com/tsconfig-cheat-sheet */
   "compilerOptions": {
-    /* Visit https://aka.ms/tsconfig to read more about this file */
     "target": "ES2022",
     "module": "ESNext",
     "allowJs": true,
@@ -9,6 +9,12 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "noUncheckedIndexedAccess": true,
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022"]
   }
 }
